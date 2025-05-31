@@ -1,0 +1,12 @@
+12. Distinct Departments
+Objective: List distinct departments in the table.
+
+Expected Output:
+
+ department  
+-------------
+ Engineering
+ HR
+ Marketing
+ Sales
+(4 rows)

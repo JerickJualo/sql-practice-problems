@@ -1,0 +1,10 @@
+1. List All Employees
+Objective: List all columns for every employee.
+Expected Output:
+
+
+EmployeeID | FirstName | LastName | Email                       | Department   | Salary    | HireDate
+1          | Alice     | Smith    | alice.smith@example.com     | Sales        | 55000.00  | 2019-03-15
+2          | Bob       | Johnson  | bob.johnson@example.com     | Engineering  | 72000.00  | 2018-07-22
+…          | …         | …        | …                           | …            | …         | …
+10         | Jack      | Anderson | jack.anderson@example.com   | Sales        | 58000.00  | 2018-05-

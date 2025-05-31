@@ -1,0 +1,9 @@
+30. Full Name Column
+Objective: List all employees, showing only EmployeeID and a new column “FullName” that concatenates FirstName and LastName.
+Expected Output:
+
+EmployeeID | FullName
+1          | Alice Smith
+2          | Bob Johnson
+…          | …
+11         | Karen Lee

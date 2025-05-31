@@ -1,0 +1,6 @@
+7. Add New Employee
+Objective: Add Karen Lee (Email = karen.lee@new.com, Department = HR, Salary = 47000.00, HireDate = 2023-04-01) and show her row.
+Expected Output:
+
+EmployeeID | FirstName | LastName | Email                   | Department | Salary   | HireDate
+11         | Karen     | Lee      | karen.lee@new.com       | HR         | 47000.00 | 2023-04-01

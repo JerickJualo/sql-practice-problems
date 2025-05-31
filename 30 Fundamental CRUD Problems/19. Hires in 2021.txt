@@ -1,0 +1,7 @@
+19. Hires in 2021
+Objective: Find employees hired in the year 2021.
+Expected Output:
+
+EmployeeID | FirstName | HireDate
+5          | Eva       | 2021-06-18
+8          | Henry     | 2021-12-01

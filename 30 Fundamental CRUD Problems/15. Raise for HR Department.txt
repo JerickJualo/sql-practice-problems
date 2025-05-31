@@ -1,0 +1,9 @@
+15. Raise for HR Department
+Objective: Give everyone in “HR” a 5000 salary raise, then show those HR rows.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName | Department | Salary
+3          | Carol     | Williams | HR         | 53000.00
+8          | Henry     | Moore    | HR         | 55000.00
+11         | Karen     | Lee      | HR         | 52000.00

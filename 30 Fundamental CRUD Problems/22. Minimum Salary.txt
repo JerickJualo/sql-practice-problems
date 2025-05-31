@@ -1,0 +1,9 @@
+22. Minimum Salary
+Objective: Retrieve the minimum salary.
+
+Expected Output:
+
+
+ min    
+-------
+45000.00

@@ -1,0 +1,12 @@
+14. Email Domain Filter
+Objective: Get employees whose e-mail ends with “@example.com”.
+
+Expected Output:
+
+EmployeeID | FirstName | Email
+1          | Alice     | alice.smith@example.com
+2          | Bob       | bob.johnson@example.com
+4          | David     | david.brown@example.com
+6          | Frank     | frank.miller@example.com
+7          | Grace     | grace.wilson@example.com
+9          | Ivy       | ivy.taylor@example.com

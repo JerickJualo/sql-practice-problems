@@ -1,0 +1,17 @@
+9. Remove EmployeeID 5
+Objective: Remove the employee with EmployeeID 5, then list all remaining IDs.
+
+Expected Output:
+
+ employeeid 
+------------
+          1
+          2
+          3
+          4
+          6
+          7
+          8
+          9
+         10
+         11

@@ -1,0 +1,18 @@
+17. Delete Low Earners
+Objective: Delete all employees earning less than 50000, then list remaining IDs and Salaries.
+
+Expected Output:
+
+EmployeeID | Salary
+1          | 58000.00
+2          | 72000.00
+4          | 61000.00
+6          | 80000.00
+7          | 53000.00
+8          | 55000.00
+9          | 52000.00
+10         | 58000.00
+11         | 47000.00*
+
+*if Karen’s 47000 is considered—otherwise she’d be removed here too.
+

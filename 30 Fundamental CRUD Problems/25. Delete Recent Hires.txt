@@ -1,0 +1,10 @@
+25. Delete Recent Hires
+Objective: Delete employees hired after January 1, 2022, then list HireDate and Name for remaining.
+
+Expected Output:
+
+HireDate   | FirstName | LastName
+2019-03-15 | Alice     | Smith
+2018-07-22 | Bob       | Johnson
+…          | …         | …
+2021-12-01 | Henry     | Moore

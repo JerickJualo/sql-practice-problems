@@ -1,0 +1,9 @@
+3. Employees in Sales Department
+Objective: Find employees in the “Sales” department.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName | Department
+1          | Alice     | Smith    | Sales
+4          | David     | Brown    | Sales
+10         | Jack      | Anderson | Sales

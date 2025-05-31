@@ -1,0 +1,12 @@
+10. Sort by Last Name
+Objective: List employees sorted by LastName ascending.
+
+Expected Output:
+
+EmployeeID | LastName
+10         | Anderson
+4          | Brown
+5*         | Davis
+…          | …
+3          | Williams
+*if #9 removed ID 5, Davis would be absent or reflect updated dataset.

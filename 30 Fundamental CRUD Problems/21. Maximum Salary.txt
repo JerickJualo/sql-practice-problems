@@ -1,0 +1,8 @@
+21. Maximum Salary
+Objective: Retrieve the maximum salary.
+
+Expected Output:
+
+ max  
+-------
+80000.00

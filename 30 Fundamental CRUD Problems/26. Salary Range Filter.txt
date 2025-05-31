@@ -1,0 +1,12 @@
+26. Salary Range Filter
+Objective: Find employees whose salary is between 50000 and 70000.
+
+Expected Output:
+
+EmployeeID | FirstName | Salary
+1          | Alice     | 58000.00
+4          | David     | 61000.00
+7          | Grace     | 53000.00
+8          | Henry     | 55000.00
+9          | Ivy       | 52000.00
+10         | Jack      | 58000.00

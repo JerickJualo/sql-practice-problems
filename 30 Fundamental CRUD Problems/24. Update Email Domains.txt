@@ -1,0 +1,9 @@
+24. Update Email Domains
+Objective: Update every email address to replace “@another.com” with “@example.org” and show affected rows.
+
+Expected Output:
+
+EmployeeID | Email
+3          | carol.williams@example.org
+5          | eva.davis@example.org
+8          | henry.moore@example.org

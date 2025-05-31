@@ -1,0 +1,14 @@
+27. Exclude Sales Department
+Objective: List employees not in the “Sales” department.
+
+Expected Output:
+
+EmployeeID | FirstName | Department
+2          | Bob       | Engineering
+3          | Carol     | HR
+5          | Eva       | Marketing
+6          | Frank     | Engineering
+7          | Grace     | Marketing
+8          | Henry     | HR
+9          | Ivy       | Marketing
+11         | Karen     | HR

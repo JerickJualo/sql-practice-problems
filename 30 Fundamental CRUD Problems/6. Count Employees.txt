@@ -1,0 +1,7 @@
+6. Count Employees
+Objective: Count total number of employees.
+Expected Output:
+
+ count 
+-------
+    10

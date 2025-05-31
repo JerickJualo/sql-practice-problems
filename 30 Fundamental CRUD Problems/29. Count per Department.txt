@@ -1,0 +1,10 @@
+29. Count per Department
+Objective: Count how many employees per department.
+Expected Output:
+
+Department   | count
+-------------|-------
+Engineering  |     2
+HR           |     3
+Marketing    |     3
+Sales        |     3

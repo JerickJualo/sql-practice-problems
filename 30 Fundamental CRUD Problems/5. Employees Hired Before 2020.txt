@@ -1,0 +1,9 @@
+5. Employees Hired Before 2020
+Objective: Get employees hired before January 1, 2020.
+Expected Output:
+
+EmployeeID | FirstName | LastName | HireDate
+2          | Bob       | Johnson  | 2018-07-22
+4          | David     | Brown    | 2017-11-05
+6          | Frank     | Miller   | 2016-09-30
+10         | Jack      | Anderson | 2018-05-03

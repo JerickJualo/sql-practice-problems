@@ -1,0 +1,7 @@
+8. Increase Salary for Alice Smith
+Objective: Increase Alice Smith’s salary to 58000 and display her updated row.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName | Salary
+1          | Alice     | Smith    | 58000.00

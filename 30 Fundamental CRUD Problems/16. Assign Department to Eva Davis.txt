@@ -1,0 +1,7 @@
+16. Assign Department to Eva Davis
+Objective: Change Eva Davis’s Department from NULL to “Marketing” and display her record.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName | Department
+5          | Eva       | Davis    | Marketing

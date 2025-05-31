@@ -1,0 +1,8 @@
+18. Bulk Insert and Count
+Objective: Insert two new employees of your choice in one statement, then count total employees.
+
+Expected Output:
+
+ count 
+-------
+    12

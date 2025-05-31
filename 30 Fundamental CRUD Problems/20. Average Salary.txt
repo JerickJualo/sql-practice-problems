@@ -1,0 +1,8 @@
+20. Average Salary
+Objective: Compute the average salary across all employees.
+
+Expected Output:
+
+    avg    
+------------
+  60111.11

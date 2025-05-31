@@ -1,0 +1,7 @@
+23. Employees Named Bob
+Objective: List employees whose FirstName is “Bob”.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName
+2          | Bob       | Johnson

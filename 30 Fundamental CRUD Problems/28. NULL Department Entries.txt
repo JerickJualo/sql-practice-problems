@@ -1,0 +1,8 @@
+28. NULL Department Entries
+Objective: Show any employees whose Department is NULL.
+
+Expected Output:
+
+EmployeeID | FirstName | Department
+—          | —         | —
+(Empty result after step 16—no NULLs remain.)

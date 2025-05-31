@@ -1,0 +1,10 @@
+2. Show Names Only
+Objective: Show only first and last names of all employees.
+
+Expected Output:
+
+FirstName | LastName
+Alice     | Smith
+Bob       | Johnson
+…         | …
+Jack      | Anderson

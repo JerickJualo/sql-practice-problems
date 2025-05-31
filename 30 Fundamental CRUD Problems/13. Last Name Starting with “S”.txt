@@ -1,0 +1,7 @@
+13. Last Name Starting with “S”
+Objective: Find employees whose last name starts with “S”.
+
+Expected Output:
+
+EmployeeID | FirstName | LastName
+1          | Alice     | Smith
