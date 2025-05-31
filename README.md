@@ -1,6 +1,3 @@
-# sql-practice-problems
-Solving PostgreSQL Fundamental Problems as i study SQL.
-
 # SQL Practice Problems Repository
 
 Welcome to the **SQL Fundamental Practice Problems** repository! This project contains a set of 30 fundamental CRUD exercises and more future SQL sets of Problems for PostgreSQL as i study SQL and PostgreSQL more! complete with problem statements and comprehensive solutions.
