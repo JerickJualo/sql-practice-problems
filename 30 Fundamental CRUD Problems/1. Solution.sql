@@ -87,4 +87,111 @@ FROM Employees
 ORDER BY LastName;
 
 
---- END FOR May 31, 2025 - Saturday
+--- END FOR May 31, 2025 - Saturday (10 Problem Solved - Time Spend: 1Hr and 17 Minutes)
+
+
+--- START FOR June 3, 2025 - Tuesday
+
+
+---Solution for 11. Top 3 Highest Salaries
+
+
+SELECT *
+FROM Employees
+ORDER BY Salary DESC
+LIMIT 3;
+
+
+---Solution for 12. Distinct Departments
+
+
+SELECT DISTINCT Department
+FROM Employees
+
+
+---Solution for 13. Last Name Starting with “S”
+
+
+SELECT EmployeeID, FirstName, LastName
+FROM Employees
+WHERE LastName LIKE 'S%';
+
+
+---Solution for 14. Email Domain Filter
+
+
+SELECT EmployeeID, FirstName, LastName, Email
+FROM Employees
+WHERE Email LIKE '%@example.com';
+
+
+---Solution for 15. Raise for HR Department
+
+UPDATE Employees
+SET Salary = Salary + 5000
+WHERE Department = 'HR'
+
+
+SELECT EmployeeID, FirstName, LastName, Department, Salary
+FROM Employees
+WHERE Department = 'HR'
+
+
+---Solution for 16. Assign Department to Eva Davis
+
+---FOR THIS PROBLEM WE ADD Eva Davis Back into the Database as we REMOVE them in 9. Remove EmployeeID 5
+---CHECK THE Experimental Table and Data for 30 CRUD Problem
+---The NEW EmployeeID of Eva Davis is 12, but i will change it to 5
+
+UPDATE Employees
+SET EmployeeID = 5
+WHERE FirstName = 'Eva' and LastName = 'Davis';
+
+UPDATE Employees
+SET Department = 'Marketing'
+WHERE EmployeeID = 5;
+
+SELECT EmployeeID, FirstName, LastName, Department
+FROM Employees
+WHERE FirstName = 'Eva' and LastName = 'Davis';
+
+
+---Solution for 17. Delete Low Earners
+
+DELETE FROM Employees
+WHERE Salary < 50000;
+
+SELECT EmployeeID, Salary FROM Employees;
+
+
+---Solution for 18. Bulk Insert and Count
+
+
+INSERT INTO Employees (FirstName, LastName, Email, Department, Salary, HireDate) VALUES
+('Jerick', 'Jualo', 'jerickjualo@example.com', 'HR', 70000, '2025-6-3'),
+('Jerome', 'Jualo', 'jeromejualo@example.com', 'HR', 70000, '2025-9-24');
+
+SELECT COUNT(EmployeeID)
+FROM Employees;
+
+
+---Solution for 19. Hires in 2021
+
+
+SELECT EmployeeID, FirstName, HireDate
+FROM Employees
+WHERE HireDate > '2021-1-1' AND HireDate < '2021-12-31';
+---THE OUTPUT IS ONLY EmployeeID 8 Because Eva Davis is deleted again in 17. Delete Low Earners as its Salary is only 45000
+
+
+---Solution for 20. Average Salary
+
+SELECT AVG(Salary)
+FROM Employees;
+---OR if you want to only display 2 decimal:
+SELECT AVG(Salary):: NUMERIC(10,2)
+FROM Employees;
+
+
+---END FOR June 3, 2025 - Tuesday (10 Problem Solved - Time Spend: 1Hr and 34 Minutes)
+

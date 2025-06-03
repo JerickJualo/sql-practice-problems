@@ -21,3 +21,9 @@ INSERT INTO Employees (FirstName, LastName, Email, Department, Salary, HireDate)
 ('Henry',   'Moore',   'henry.moore@another.com',    'HR',       50000.00, '2021-12-01'),
 ('Ivy',     'Taylor',  'ivy.taylor@example.com',     'Marketing', 52000.00, '2019-08-14'),
 ('Jack',    'Anderson','jack.anderson@example.com',  'Sales',    58000.00, '2018-05-03');
+
+
+--FOR 16. Assign Department to Eva Davis, WE WILL ADD EVA DAVIS BACK BECAUSE WE DELETE THEM IN 9. Remove EmployeeID 5
+
+INSERT INTO Employees(FirstName, LastName, Email, Department, Salary, HireDate)VALUES
+('Eva',     'Davis',   'eva.davis@another.com',      NULL,       45000.00, '2021-06-18');
