@@ -195,3 +195,92 @@ FROM Employees;
 
 ---END FOR June 3, 2025 - Tuesday (10 Problem Solved - Time Spend: 1Hr and 34 Minutes)
 
+
+---START FOR June 5, 2025 - Thursday (10 Problem Solved - Time Spend: )
+
+
+---Solution for 21. Maximum Salary
+
+
+SELECT MAX(Salary)
+FROM Employees;
+
+
+---Solution for 22. Minimum Salary
+
+
+SELECT MIN(Salary)
+FROM Employees;
+
+
+---Solution for 23. Employees Named Bob
+
+
+SELECT EmployeeID, FirstName, LastName
+FROM Employees
+WHERE FirstName = 'Bob';
+
+
+---Solution for 24. Update Email Domains
+
+UPDATE Employees
+SET Email = REPLACE(Email, '@another.com', '@example.org') ---FREAKING HELL THIS LINE TAKES ME 30 MINUTES BEFORE DECIDING LET AI HELP ME ON THIS ONE
+WHERE Email ILIKE '%@another.com'; ---Query this first		  BECAUSE I CANT FIND ANY ALTERNATIVE IN W3School SQL and PostgreSQL
+
+SELECT EmployeeID, Email
+FROM Employees
+WHERE Email ILIKE '%@example.org';
+
+
+---Solution for 25. Delete Recent Hires
+
+
+DELETE 
+FROM Employees
+WHERE HireDate > '2022-1-1';
+
+SELECT HireDate, FirstName, LastName
+FROM Employees;
+
+
+---Solution for 26. Salary Range Filter
+
+
+SELECT EmployeeID, FirstName, Salary
+FROM Employees
+WHERE Salary BETWEEN 50000 AND 70000;
+
+
+---Solution for 27. Exclude Sales Department
+
+
+SELECT EmployeeID, FirstName, Department
+FROM Employees
+WHERE NOT Department = 'Sales';
+
+
+---Solution for 28. NULL Department Entries
+
+
+SELECT EmployeeID, FirstName, Department
+FROM Employees
+WHERE Department = NULL;
+
+
+---Solution for 29. Count per Department
+
+SELECT Department, COUNT(Department)
+FROM Employees
+GROUP BY Department;
+
+
+---Solution for 30. Full Name Column
+
+
+SELECT FirstName || ' ' || LastName AS FullName
+FROM Employees
+
+
+---END FOR June 5, 2025 - Thursday (10 Problem Solved - Time Spend: 1Hr and 11 Minutes)
+
+---30 Fundamental CRUD Problems FINISHED SOLVING!

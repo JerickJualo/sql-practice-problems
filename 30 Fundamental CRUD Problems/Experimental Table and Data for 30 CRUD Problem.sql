@@ -27,3 +27,6 @@ INSERT INTO Employees (FirstName, LastName, Email, Department, Salary, HireDate)
 
 INSERT INTO Employees(FirstName, LastName, Email, Department, Salary, HireDate)VALUES
 ('Eva',     'Davis',   'eva.davis@another.com',      NULL,       45000.00, '2021-06-18');
+
+SELECT * 
+FROM Employees
