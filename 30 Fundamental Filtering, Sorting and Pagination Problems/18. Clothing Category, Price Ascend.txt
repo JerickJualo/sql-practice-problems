@@ -1,0 +1,11 @@
+18. Clothing Category, Price Ascending
+Objective: Show all columns for Clothing products, sorted by Price ascending.
+
+Expected Output:
+
+
+ ProductID |   Name    | Category   |  Price  | Stock | CreatedDate 
+-----------|-----------|------------|---------|-------|-------------
+         6 | T-Shirt   | Clothing   |   25.00 |   200 | 2021-03-05
+         7 | Jeans     | Clothing   |   40.00 |   150 | 2021-04-12
+        12 | Jacket    | Clothing   |  100.00 |    75 | 2021-08-01

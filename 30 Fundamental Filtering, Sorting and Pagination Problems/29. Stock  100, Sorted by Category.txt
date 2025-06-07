@@ -1,0 +1,11 @@
+29. Stock > 100, Sorted by Category
+Objective: Show products with Stock > 100, sorted by Category ascending.
+
+Expected Output:
+
+
+ ProductID |   Name    | Category  |  Price  | Stock | CreatedDate 
+-----------|-----------|-----------|---------|-------|-------------
+        11 | Notebook  | Books     |   5.00  |   300 | 2021-06-01
+         6 | T-Shirt   | Clothing  |  25.00  |   200 | 2021-03-05
+         7 | Jeans     | Clothing  |  40.00  |   150 | 2021-04-12

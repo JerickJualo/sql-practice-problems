@@ -1,0 +1,11 @@
+3. Electronics Category Only
+Objective: List all columns for products whose Category = 'Electronics'.
+
+Expected Output:
+
+
+ ProductID |    Name      |  Category    |  Price   | Stock | CreatedDate 
+-----------|--------------|--------------|----------|-------|-------------
+         1 | Laptop       | Electronics  | 1200.00  |    10 | 2021-05-10
+         2 | Smartphone   | Electronics  |  800.00  |    25 | 2021-06-15
+         3 | Headphones   | Electronics  |  150.00  |    50 | 2021-07-20

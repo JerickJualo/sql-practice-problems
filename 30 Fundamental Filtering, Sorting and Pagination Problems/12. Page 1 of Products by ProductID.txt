@@ -1,0 +1,13 @@
+12. Page 1 of Products by ProductID
+Objective: Show the first 5 products when sorted by ProductID ascending (LIMIT 5).
+
+Expected Output:
+
+
+ ProductID |    Name       | Category     |  Price   | Stock | CreatedDate 
+-----------|---------------|--------------|----------|-------|-------------
+         1 | Laptop        | Electronics  | 1200.00  |    10 | 2021-05-10
+         2 | Smartphone    | Electronics  |  800.00  |    25 | 2021-06-15
+         3 | Headphones    | Electronics  |  150.00  |    50 | 2021-07-20
+         4 | Novel A       | Books        |   20.00  |   100 | 2020-11-01
+         5 | Novel B       | Books        |   15.00  |    80 | 2020-12-10

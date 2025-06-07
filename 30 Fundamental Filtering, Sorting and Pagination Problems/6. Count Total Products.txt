@@ -1,0 +1,9 @@
+6. Count Total Products
+Objective: Return the total count of rows in Products.
+
+Expected Output:
+
+
+ count 
+-------
+    12

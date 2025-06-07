@@ -1,0 +1,9 @@
+20. Count Books
+Objective: Count how many products belong to Category = 'Books'.
+
+Expected Output:
+
+
+ count 
+-------
+     3

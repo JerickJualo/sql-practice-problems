@@ -1,0 +1,9 @@
+21. Cheapest Product
+Objective: Find the minimum Price and show the corresponding product row(s).
+
+Expected Output:
+
+
+ ProductID |   Name    | Category  | Price | Stock | CreatedDate 
+-----------|-----------|-----------|-------|-------|-------------
+        11 | Notebook  | Books     |  5.00 |   300 | 2021-06-01

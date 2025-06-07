@@ -1,0 +1,13 @@
+19. Distinct Categories
+Objective: List all distinct Category values.
+
+Expected Output:
+
+
+  category   
+-------------
+ Electronics
+ Books
+ Clothing
+ Home
+(4 rows)

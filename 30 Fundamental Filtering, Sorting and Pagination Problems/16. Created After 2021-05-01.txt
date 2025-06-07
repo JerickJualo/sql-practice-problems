@@ -1,0 +1,13 @@
+16. Created After 2021-05-01
+Objective: Show all products where CreatedDate > '2021-05-01'.
+
+Expected Output:
+
+
+ ProductID |    Name       | Category      |  Price   | Stock | CreatedDate 
+-----------|---------------|---------------|----------|-------|-------------
+         1 | Laptop        | Electronics   | 1200.00  |    10 | 2021-05-10
+         2 | Smartphone    | Electronics   |  800.00  |    25 | 2021-06-15
+         3 | Headphones    | Electronics   |  150.00  |    50 | 2021-07-20
+        11 | Notebook      | Books         |    5.00  |   300 | 2021-06-01
+        12 | Jacket        | Clothing      |  100.00  |    75 | 2021-08-01

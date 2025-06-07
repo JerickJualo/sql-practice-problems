@@ -1,0 +1,11 @@
+10. Home Category, Sorted by Name
+Objective: Show all Home products (Category = 'Home'), sorted by Name (A→Z).
+
+Expected Output:
+
+
+ ProductID |    Name       | Category |  Price   | Stock | CreatedDate 
+-----------|---------------|----------|----------|-------|-------------
+         9 | Blender       | Home     |   60.00  |    40 | 2021-01-20
+         8 | Coffee Maker  | Home     |   70.00  |    30 | 2021-02-14
+        10 | Desk Lamp     | Home     |   30.00  |    60 | 2021-05-01

@@ -1,0 +1,20 @@
+2. Show Names and Prices Only
+Objective: Display only the Name and Price columns for all products.
+
+Expected Output:
+
+
+     Name        |  Price  
+-----------------|---------
+ Laptop          | 1200.00
+ Smartphone      |  800.00
+ Headphones      |  150.00
+ Novel A         |   20.00
+ Novel B         |   15.00
+ T-Shirt         |   25.00
+ Jeans           |   40.00
+ Coffee Maker    |   70.00
+ Blender         |   60.00
+ Desk Lamp       |   30.00
+ Notebook        |    5.00
+ Jacket          |  100.00

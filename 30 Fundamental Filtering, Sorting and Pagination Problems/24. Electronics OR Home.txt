@@ -1,0 +1,14 @@
+24. Electronics OR Home
+Objective: Show all rows whose Category is either 'Electronics' or 'Home'.
+
+Expected Output:
+
+
+ ProductID |    Name       |  Category    |  Price   | Stock | CreatedDate 
+-----------|---------------|--------------|----------|-------|-------------
+         1 | Laptop        | Electronics  | 1200.00  |    10 | 2021-05-10
+         2 | Smartphone    | Electronics  |  800.00  |    25 | 2021-06-15
+         3 | Headphones    | Electronics  |  150.00  |    50 | 2021-07-20
+         8 | Coffee Maker  | Home         |   70.00  |    30 | 2021-02-14
+         9 | Blender       | Home         |   60.00  |    40 | 2021-01-20
+        10 | Desk Lamp     | Home         |   30.00  |    60 | 2021-05-01

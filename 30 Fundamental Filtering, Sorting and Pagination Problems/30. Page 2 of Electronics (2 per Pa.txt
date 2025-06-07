@@ -1,0 +1,11 @@
+30. Page 2 of Electronics (2 per Page, Price ASC)
+Objective: Show “page 2” of Electronics products, with 2 per page, sorted by Price ascending (i.e., OFFSET 2, LIMIT 2).
+
+Expected Output:
+
+
+ ProductID |   Name     | Category     |  Price   | Stock | CreatedDate 
+-----------|------------|--------------|----------|-------|-------------
+         1 | Laptop     | Electronics  | 1200.00  |    10 | 2021-05-10
+
+(Explanation: Electronics sorted by Price→ [Headphones (150), Smartphone (800), Laptop (1200)]. Page 1 is Headphones & Smartphone. Page 2 is Laptop.)

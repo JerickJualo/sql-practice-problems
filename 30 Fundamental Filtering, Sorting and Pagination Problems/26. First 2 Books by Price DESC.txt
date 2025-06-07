@@ -1,0 +1,10 @@
+26. First 2 Books by Price DESC
+Objective: Show the first 2 products in the Books category, sorted by Price descending, using LIMIT 2.
+
+Expected Output:
+
+
+ ProductID |   Name    | Category  |  Price  | Stock | CreatedDate 
+-----------|-----------|-----------|---------|-------|-------------
+         4 | Novel A   | Books     |  20.00  |   100 | 2020-11-01
+         5 | Novel B   | Books     |  15.00  |    80 | 2020-12-10

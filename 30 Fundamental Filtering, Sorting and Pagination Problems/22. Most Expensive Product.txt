@@ -1,0 +1,9 @@
+22. Most Expensive Product
+Objective: Find the maximum Price and show the corresponding product row.
+
+Expected Output:
+
+
+ ProductID |   Name       | Category     | Price   | Stock | CreatedDate 
+-----------|--------------|--------------|---------|-------|-------------
+         1 | Laptop       | Electronics  | 1200.00 |    10 | 2021-05-10

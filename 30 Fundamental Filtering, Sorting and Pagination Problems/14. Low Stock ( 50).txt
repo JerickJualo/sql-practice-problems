@@ -1,0 +1,12 @@
+14. Low Stock (< 50)
+Objective: List all products where Stock < 50.
+
+Expected Output:
+
+
+ ProductID |    Name       |  Stock 
+-----------|---------------|--------
+         1 | Laptop        |     10
+         2 | Smartphone    |     25
+         8 | Coffee Maker  |     30
+         9 | Blender       |     40

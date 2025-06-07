@@ -1,0 +1,9 @@
+15. Name Contains “Book”
+Objective: Find products whose Name contains “Book” (case-sensitive match via LIKE '%Book%').
+
+Expected Output:
+
+
+ ProductID |   Name    | Category  |  Price  | Stock | CreatedDate 
+-----------|-----------|-----------|---------|-------|-------------
+        11 | Notebook  | Books     |   5.00  |   300 | 2021-06-01

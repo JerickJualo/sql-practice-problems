@@ -1,0 +1,20 @@
+17. Sort by CreatedDate (Newest First)
+Objective: List all products sorted by CreatedDate descending (latest → oldest).
+
+Expected Output:
+
+
+ ProductID |    Name       | Category     |  Price   | Stock | CreatedDate 
+-----------|---------------|--------------|----------|-------|-------------
+        12 | Jacket        | Clothing     |  100.00  |    75 | 2021-08-01
+         3 | Headphones    | Electronics  |  150.00  |    50 | 2021-07-20
+         2 | Smartphone    | Electronics  |  800.00  |    25 | 2021-06-15
+        11 | Notebook      | Books        |    5.00  |   300 | 2021-06-01
+         1 | Laptop        | Electronics  | 1200.00  |    10 | 2021-05-10
+        10 | Desk Lamp     | Home         |   30.00  |    60 | 2021-05-01
+         7 | Jeans         | Clothing     |   40.00  |   150 | 2021-04-12
+         6 | T-Shirt       | Clothing     |   25.00  |   200 | 2021-03-05
+         8 | Coffee Maker  | Home         |   70.00  |    30 | 2021-02-14
+         9 | Blender       | Home         |   60.00  |    40 | 2021-01-20
+         5 | Novel B       | Books        |   15.00  |    80 | 2020-12-10
+         4 | Novel A       | Books        |   20.00  |   100 | 2020-11-01
